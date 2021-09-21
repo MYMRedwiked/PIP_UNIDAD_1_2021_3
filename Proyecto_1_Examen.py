@@ -1,4 +1,3 @@
-import random
 import sys
 import random
 
@@ -48,7 +47,6 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
                 self.calif+=1
             else: self.mensaje("Esta Incorrecto")
             self.mensaje("Tu calificacion es: "+str(self.calif))
-
 
     def mensaje(self,msj):
         m = QtWidgets.QMessageBox()
